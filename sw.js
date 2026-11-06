@@ -1,12 +1,12 @@
 /* Offline support: the app files are cached so To Do opens without a connection.
    Network-first, so a fresh deploy is picked up as soon as the device is online.
    This never touches LocalStorage, where your tasks live. */
-const CACHE = 'todo-shell-v1';
+const CACHE = 'todo-shell-v2';
 const ASSETS = [
   './',
   './index.html',
   './app.js',
-  './app.css',
+  './css/app.css',
   './manifest.webmanifest',
   './icons/icon.svg',
   './icons/icon-192.png',
